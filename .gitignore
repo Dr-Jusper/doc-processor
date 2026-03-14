@@ -1,13 +1,5 @@
-# Создаём .gitignore
-echo "venv/
+venv/
 .env
-__pycache__/
-*.pyc
-uploads/
-*.db
-debug_page.png" > .gitignore
-
-# Инициализируем репозиторий
-git init
-git add .
-git commit -m "initial commit: document processing API"
+app/__pycache__/
+app/uploads/
+app/*.db
